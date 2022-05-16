@@ -1,11 +1,11 @@
-import { Navbar } from "../components/Navbar";
+// import { Navbar } from "../components/Navbar";
 // import logo from "./assets/restaurant.jpg"
 // import clock from "./assets/clock.jpg"
 import { BsFillArrowRightSquareFill } from "react-icons/bs";
 export const HomePage = () => {
   return (
     <div>
-      <Navbar />
+      
       <div className="flex space-x-14 ">
         <div className="  bg-white drop-shadow-lg w-80 h-72 mt-20 ml-52 flex-wrap ">
           <img src="restaurant" alt="restaurant" />
