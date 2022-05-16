@@ -7,32 +7,17 @@ import { Pizzanians } from "../utils/Data";
 import { Desserts } from "../utils/Data";
 import { Chicken } from "../utils/Data";
 import { Link } from "react-router-dom";
+import {useEffect} from "react"
+import {FoodNavbar} from "../components/FoodNavbar"
+
 
 function Foodlist() {
+ 
+
+  
  return (
    <>
-     <div className="h-16 w-full bg-zinc-300">
-       <ul className="flex justify-evenly text-lg">
-         <button>
-           <li className="mt-4">Break your Fast</li>
-         </button>
-         <button>
-           <li className="mt-4">Time for Lunch</li>
-         </button>
-         <button>
-           <li className="mt-4">Can I Have Snacks</li>
-         </button>
-         <button>
-           <li className="mt-4">Dinner</li>
-         </button>
-         <button>
-           <li className="mt-4">Burgers and Beverages</li>
-         </button>
-         <button>
-           <li className="mt-4">More...</li>
-         </button>
-       </ul>
-     </div>
+     <FoodNavbar />
      <Breakfast />
      <Lunch />
      <Snacks />
@@ -43,7 +28,7 @@ function Foodlist() {
 }
 
 
-// export function Navbar() {
+// export function FoodNavbar() {
 
 
 //   return (
