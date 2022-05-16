@@ -5,6 +5,8 @@ import { LoginPage } from "./pages/LoginPage";
 import { Menu } from "./pages/Menu";
 import { About } from "./pages/About";
 import { SignUp } from "./pages/SignUp";
+import Foodlist from "./components/Foodlist";
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,9 @@ function App() {
         <Route path="/About" element={<About />}></Route>
         <Route path="/menu" element={<Menu />}></Route>
         <Route path="/checkout" element={<Checkout />}></Route>
+        <Route path="/Foodlist" element={<Foodlist />}></Route>
       </Routes>
+      {/* <Foodlist /> */}
     </div>
   );
 }
