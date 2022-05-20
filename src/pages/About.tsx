@@ -33,7 +33,7 @@ export const About = () => {
                 Menu
               </li>
             </Link>
-            <Link to="">
+            <Link to="/loginPage">
               <li className="bg-blue-700 text-white hover:bg-gray-400  font-bold py-2 px-4 rounded">
                 Login
               </li>

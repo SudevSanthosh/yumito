@@ -28,17 +28,6 @@ function Foodlist() {
 }
 
 
-// export function FoodNavbar() {
-
-
-//   return (
-//     <>
-    
-//     </>
-//   );
-// }
-
-
 export function Breakfast() {
   
   return (
