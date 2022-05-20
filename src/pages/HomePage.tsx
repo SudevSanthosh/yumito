@@ -1,6 +1,4 @@
-// import { Navbar } from "../components/Navbar";
-// import logo from "./assets/restaurant.jpg"
-// import clock from "./assets/clock.jpg"
+
 import { BsFillArrowRightSquareFill } from "react-icons/bs";
 export const HomePage = () => {
   return (
